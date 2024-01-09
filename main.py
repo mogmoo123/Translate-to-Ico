@@ -20,4 +20,3 @@ except:
     print("파일을 선택해주세요.")
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-quit()
