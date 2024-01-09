@@ -8,7 +8,7 @@ input_path = eg.fileopenbox(
 )
 output_path = eg.filesavebox(
     title= "output path",
-    filetypes= "*.ico"
+    filetypes= ["*.ico"]
 )
 try:
     img = cv2.imread(input_path)
